@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 40px;
+}
+
+a {
+    margin-right: 20px;
+}
+.navbar a:hover {
+    color: yellow;
+}
+.navbar {
+    background-color: darkblue;
+    padding: 15px;
+     border-radius: 10px;
+         box-shadow: 5px 5px 15px gray;
+        display: flex;
+}
+
+.navbar a {
+    color: white;
+     margin-right: 20px;
+    text-decoration: none;
+}
+.projects {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.project-card {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px gray;
+     transition: 0.3s;
+
+}
+.project-card:hover {
+    transform: scale(1.05);
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
